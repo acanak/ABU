@@ -54,6 +54,6 @@ int main()
      // Yuksek Kenar + Yatay Kenar * 2 
      cevre = cevre * 2;
    
-    printf("Dikdortgenin alani: %d\n birimdir", alan);
-    printf("Dikdortgenin cevre uzunlugu: %d\n birimdir", cevre);
+    printf("Dikdortgenin alani: %d birimdir \n", alan);
+    printf("Dikdortgenin cevre uzunlugu: %d birimdir\n", cevre);
 }

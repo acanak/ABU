@@ -30,9 +30,10 @@
 // Main Loop - Ana Dongu
 int main()
 {
-    // Define Variables
+    // Degiskenleri tanimlayalim
     int yukseklik, genislik, alan, cevre;
 
+    // Ilk Degerlerini atayalim
     yukseklik = 0;
     genislik = 0;
 
@@ -43,11 +44,14 @@ int main()
     printf("2nci kenar uzunlugunu giriniz:");
     scanf("%d",&genislik);
 
-     // Formula for area calculation 
-     // A = W * H
-     // Alan = Yuksek Kenar  *  Yatay Kenar
+     // Dikdortgenin alan formulu 
+     // Alan = Yuksek Kenar *  Yatay Kenar
+
      alan = yukseklik * genislik;    
      cevre = yukseklik + genislik;
+
+     // Cevre alan formulu 
+     // Yuksek Kenar + Yatay Kenar * 2 
      cevre = cevre * 2;
    
     printf("Dikdortgenin alani: %d\n birimdir", alan);
